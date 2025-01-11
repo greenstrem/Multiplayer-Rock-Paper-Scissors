@@ -1,6 +1,8 @@
 import random
 
 
+print('Приветули')
+
 def comp_choice():
     choices = ["камень", "ножницы", "бумага"]
     return random.choice(choices)
